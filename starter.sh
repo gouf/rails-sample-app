@@ -1,5 +1,6 @@
 #!/bin/sh
 
+source /etc/profile.d/nvm.sh
 rbenv rehash
 rbenv global 2.1.1
 bundle
